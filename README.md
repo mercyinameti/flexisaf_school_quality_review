@@ -30,6 +30,8 @@ Each run calls Gemini, so answers vary a little between runs. The results are on
 - `results_baseline.csv` and `results_improved.csv`: the raw responses from each run.
 - `human_review.md`: scores for five reviewed responses.
 - `before_after.md`: the comparison between the two runs.
+- `failed_case_analysis.md`: the baseline failures grouped into patterns, with the cause and fix for each.
+- `version_notes.md`: the model, instruction, tools, and retrieval setup for each run, and the settings held constant.
 - `backlog.md`: the prioritised list of further improvements.
 - Assistant files: `models.py`, `tools.py`, `tool_schemas.py`, `dispatch.py`, `audit.py`, `main.py`, `ask_model.py`, `approval_check.py`.
 
